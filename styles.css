@@ -254,7 +254,7 @@ h2 {
 }
 
 h1 {
-  max-width: 10ch;
+  max-width: 11ch;
   margin-bottom: 1.6rem;
   font-size: clamp(4rem, 9.5vw, 8.1rem);
   font-weight: 820;
@@ -593,7 +593,7 @@ h3 {
 
 .skill-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
 
