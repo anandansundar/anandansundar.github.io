@@ -4,9 +4,9 @@ A lightweight personal portfolio for [anandansundar.github.io](https://anandansu
 
 ## Edit the portfolio
 
-1. Open `index.html` and search for `EDIT:` comments.
-2. Replace the clearly marked placeholder introduction, experience, projects, skills, and contact details.
-3. Adjust colors or layout variables at the top of `styles.css` if desired.
+1. Update portfolio copy and links in `index.html`.
+2. Adjust colors or layout variables at the top of `styles.css` if desired.
+3. Keep public content free of private contact details and confidential work information.
 
 Preview locally from the repository root:
 
