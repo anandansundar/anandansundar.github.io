@@ -272,7 +272,6 @@ h3 {
   line-height: 1.35;
 }
 
-.accent,
 .timeline-item h3 span {
   color: var(--cyan);
   text-shadow: 0 0 1.5rem rgb(92 236 255 / 45%);
