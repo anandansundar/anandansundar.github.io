@@ -254,11 +254,11 @@ h2 {
 }
 
 h1 {
-  max-width: 11ch;
+  max-width: 9ch;
   margin-bottom: 1.6rem;
-  font-size: clamp(4rem, 9.5vw, 8.1rem);
+  font-size: clamp(3.2rem, 9.5vw, 8.1rem);
   font-weight: 820;
-  overflow-wrap: anywhere;
+  overflow-wrap: normal;
 }
 
 h2 {
@@ -279,11 +279,12 @@ h3 {
 }
 
 .role {
-  max-width: 34rem;
-  margin-bottom: 0.75rem;
-  font-size: clamp(1.15rem, 2vw, 1.45rem);
-  font-weight: 650;
-  line-height: 1.45;
+  max-width: 38rem;
+  margin-bottom: 1rem;
+  font-size: clamp(1.35rem, 3vw, 2.05rem);
+  font-weight: 680;
+  line-height: 1.25;
+  text-wrap: balance;
 }
 
 .hero-meta {
@@ -304,6 +305,11 @@ h3 {
 .intro {
   max-width: 41rem;
   font-size: clamp(1rem, 1.7vw, 1.17rem);
+}
+
+.intro strong {
+  color: var(--text);
+  font-weight: 750;
 }
 
 .intro,
@@ -808,6 +814,11 @@ footer p {
     position: relative;
     align-items: flex-start;
     padding-block: 1rem;
+  }
+
+  h1 {
+    max-width: 100%;
+    font-size: clamp(3rem, 16vw, 4.5rem);
   }
 
   nav {
